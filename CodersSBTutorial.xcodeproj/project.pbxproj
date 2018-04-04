@@ -14,6 +14,7 @@
 		DC5AE22C203D1C0600198FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5AE22A203D1C0600198FF2 /* LaunchScreen.storyboard */; };
 		DC5AE234203D28BB00198FF2 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AE233203D28BB00198FF2 /* MovieService.swift */; };
 		DC5AE236203D28D000198FF2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AE235203D28D000198FF2 /* Movie.swift */; };
+		DCB306382074608400F42132 /* UIImageView+SetURLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB306372074608400F42132 /* UIImageView+SetURLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DC5AE22D203D1C0600198FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC5AE233203D28BB00198FF2 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		DC5AE235203D28D000198FF2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DCB306372074608400F42132 /* UIImageView+SetURLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+SetURLImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DC5AE22D203D1C0600198FF2 /* Info.plist */,
 				DC5AE233203D28BB00198FF2 /* MovieService.swift */,
 				DC5AE235203D28D000198FF2 /* Movie.swift */,
+				DCB306372074608400F42132 /* UIImageView+SetURLImage.swift */,
 			);
 			path = CodersSBTutorial;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5AE234203D28BB00198FF2 /* MovieService.swift in Sources */,
+				DCB306382074608400F42132 /* UIImageView+SetURLImage.swift in Sources */,
 				DC5AE236203D28D000198FF2 /* Movie.swift in Sources */,
 				DC30C14E20745E7500FECE23 /* ViewController.swift in Sources */,
 				DC5AE222203D1C0600198FF2 /* AppDelegate.swift in Sources */,

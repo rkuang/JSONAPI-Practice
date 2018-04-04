@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         MovieService.shared.getTopMovie { (movie) in
             self.titleLabel.text = movie.title
             self.copyrightTextView.text = movie.copyright
+            print(movie.imageURL)
+            self.imageView.setImageWithURL(urlString: movie.imageURL)
         }
     }
 }
