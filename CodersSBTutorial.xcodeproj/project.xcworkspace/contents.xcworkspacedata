@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CodersSBTutorial.xcodeproj">
+      location = "group:/Users/rkuang/Projects/CodersSBTutorial/CodersSBTutorial/ViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

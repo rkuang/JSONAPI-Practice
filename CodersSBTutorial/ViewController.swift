@@ -7,16 +7,16 @@
 //
 
 import UIKit
-let randomString = "This isn't what you were expecting"
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var copyrightTextView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        titleLabel.text = randomString
+        titleLabel.text = "Movie Title"
         copyrightTextView.text = "Copyright Information"
         getTopMovie()
     }

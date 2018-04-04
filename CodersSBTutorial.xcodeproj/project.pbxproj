@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC30C14E20745E7500FECE23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC30C14D20745E7500FECE23 /* ViewController.swift */; };
 		DC5AE222203D1C0600198FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AE221203D1C0600198FF2 /* AppDelegate.swift */; };
-		DC5AE224203D1C0600198FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5AE223203D1C0600198FF2 /* ViewController.swift */; };
 		DC5AE227203D1C0600198FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5AE225203D1C0600198FF2 /* Main.storyboard */; };
 		DC5AE229203D1C0600198FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5AE228203D1C0600198FF2 /* Assets.xcassets */; };
 		DC5AE22C203D1C0600198FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5AE22A203D1C0600198FF2 /* LaunchScreen.storyboard */; };
@@ -17,9 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC30C14D20745E7500FECE23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/rkuang/Projects/CodersSBTutorial/CodersSBTutorial/ViewController.swift; sourceTree = "<absolute>"; };
 		DC5AE21E203D1C0600198FF2 /* CodersSBTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodersSBTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC5AE221203D1C0600198FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC5AE223203D1C0600198FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC5AE226203D1C0600198FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC5AE228203D1C0600198FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC5AE22B203D1C0600198FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		DC5AE220203D1C0600198FF2 /* CodersSBTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				DC30C14D20745E7500FECE23 /* ViewController.swift */,
 				DC5AE221203D1C0600198FF2 /* AppDelegate.swift */,
-				DC5AE223203D1C0600198FF2 /* ViewController.swift */,
 				DC5AE225203D1C0600198FF2 /* Main.storyboard */,
 				DC5AE228203D1C0600198FF2 /* Assets.xcassets */,
 				DC5AE22A203D1C0600198FF2 /* LaunchScreen.storyboard */,
@@ -143,8 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5AE234203D28BB00198FF2 /* MovieService.swift in Sources */,
-				DC5AE224203D1C0600198FF2 /* ViewController.swift in Sources */,
 				DC5AE236203D28D000198FF2 /* Movie.swift in Sources */,
+				DC30C14E20745E7500FECE23 /* ViewController.swift in Sources */,
 				DC5AE222203D1C0600198FF2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
